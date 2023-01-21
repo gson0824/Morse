@@ -20,6 +20,6 @@ class MainActivity : AppCompatActivity() {
 
 
     fun onAnswerButton(view: View) {
-        helloTextView.text = "Hello Android"
+        helloTextView.text = "Hello Android!"
     }
 }
