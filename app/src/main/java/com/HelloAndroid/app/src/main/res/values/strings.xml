@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="hello_android">Hello, GyeongJun Son!</string>
+    <string name="Answer">Answer</string>
+</resources>
