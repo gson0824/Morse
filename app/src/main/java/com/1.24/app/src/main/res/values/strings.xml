@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <string name="displayString">The truth is out there!</string>
+    <string name="description">Character to Stomp</string>
+    <string name="hint">*</string>
+
+</resources>
