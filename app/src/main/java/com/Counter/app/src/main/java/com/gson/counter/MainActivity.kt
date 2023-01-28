@@ -22,35 +22,10 @@ class MainActivity : AppCompatActivity() {
         constrainedTextView = findViewById(R.id.textView_counter)
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d(TAG, "called onDestroy")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.d(TAG, "called onPause")
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.d(TAG, "called onResume")
-    }
-
-    override fun onStart() {
-        super.onStart()
-        Log.d(TAG, "called onStart")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.d(TAG, "called onStop")
-    }
-
-
     fun onReset(view :View) {
         count = 0
         constrainedTextView.text = model.getFirstLabels().toString()
+        Log.d(TAG, "Pressed Reset. Count = $count")
     }
 
     fun onRemove(view: View) {
@@ -64,10 +39,10 @@ class MainActivity : AppCompatActivity() {
         else {
             constrainedTextView.text = model.getSecondLabels().toString() + count.toString()
         }
+        Log.d(TAG, "Pressed Remove. Count = $count")
     }
 
     fun onAdd(view :View) {
-
         if (count < 5) {
             count += 1
         }
@@ -78,6 +53,6 @@ class MainActivity : AppCompatActivity() {
         else {
             constrainedTextView.text =  model.getSecondLabels().toString() + count.toString()
         }
+        Log.d(TAG, "Pressed Add. Count = $count")
     }
-
 }
