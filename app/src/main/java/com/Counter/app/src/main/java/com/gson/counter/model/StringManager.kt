@@ -7,8 +7,6 @@ class StringManager(var labels: Array<String>, var index: Int) {
             index = 0
         }
 
-        val value = labels[index]
-        index++
-        return value
+        return labels[index]
     }
 }
