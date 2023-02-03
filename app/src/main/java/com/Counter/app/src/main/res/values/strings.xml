@@ -1,7 +1,9 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Counter</string>
     <string name="textview_counter">Club Empty</string>
     <string name="button1">Reset</string>
     <string name="button2">Remove</string>
     <string name="button3">Add</string>
+
+    <string name="Empty">Club Empty</string>
 </resources>
