@@ -1,6 +1,7 @@
 package com.gson.morse
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -27,7 +28,12 @@ class SecondActivity : AppCompatActivity() {
             s = bundle.getString("input").toString()
             original.text = s
         }
-        encoded.text = model.encodeMessage(s)
+        val temp = model.encodeMessage(s)
+        encoded.text = temp
+
+
+        intent.putExtra("encoded", temp)
+        setResult(Activity.RESULT_OK, intent)
     }
 }
 
