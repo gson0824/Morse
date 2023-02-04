@@ -1,19 +1,17 @@
 package com.gson.morse
 
 import android.annotation.SuppressLint
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import android.widget.Toast
-import org.w3c.dom.Text
+import androidx.appcompat.app.AppCompatActivity
+import com.gson.morse.model.Morse
 
-const val EXTRA_ANSWER = "com.gson.morse.answer"
 
 class SecondActivity : AppCompatActivity() {
 
     private lateinit var original: TextView
     private lateinit var encoded: TextView
+    private var model = Morse()
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,13 +21,13 @@ class SecondActivity : AppCompatActivity() {
         original = findViewById(R.id.original_morse)
         encoded = findViewById(R.id.encoded_morse)
 
-        val bundle = intent
+        val bundle = intent.extras
         var s = ""
         if (bundle != null) {
-            s = bundle.getStringExtra("input").toString()
+            s = bundle.getString("input").toString()
             original.text = s
-            Toast.makeText(this, s, Toast.LENGTH_LONG).show()
         }
+        encoded.text = model.encodeMessage(s)
     }
 }
 
