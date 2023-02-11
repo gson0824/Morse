@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Morse</string>
+    <string name="instruction">Type a brief message</string>
+    <string name="encode">Encode</string>
+    <string name="original">Original Message</string>
+    <string name="encoded">Encoded Message</string>
+</resources>
