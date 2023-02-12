@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Meme Generator</string>
+    <string name="show_me">Show me!</string>
 </resources>

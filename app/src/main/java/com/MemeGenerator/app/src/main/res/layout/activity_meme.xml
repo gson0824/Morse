@@ -4,32 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MemeActivity">
 
     <TextView
-        android:id="@+id/showme_meme"
+        android:id="@+id/memeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/show_me"
+        android:text="Hello"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.161" />
+        app:layout_constraintVertical_bias="0.189" />
 
-    <ImageButton
-        android:id="@+id/imageButton_meme"
-        android:layout_width="270dp"
-        android:layout_height="275dp"
-        android:layout_marginTop="40dp"
-        android:background="?attr/selectableItemBackgroundBorderless"
+    <ImageView
+        android:id="@+id/memeImage"
+        android:layout_width="300dp"
+        android:layout_height="254dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/showme_meme"
-        app:layout_constraintVertical_bias="0.233"
-        app:srcCompat="@drawable/button" />
-
+        app:layout_constraintTop_toBottomOf="@+id/memeText"
+        app:layout_constraintVertical_bias="0.12"
+        app:srcCompat="@drawable/happy" />
 </androidx.constraintlayout.widget.ConstraintLayout>
