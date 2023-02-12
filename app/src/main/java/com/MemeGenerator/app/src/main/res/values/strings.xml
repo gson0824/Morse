@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Meme Generator</string>
-    <string name="show_me">Show me!</string>
+
+    <string name="show_me">Show Me!</string>
+    <string name="snack">Number of Memes Generated: </string>
+
+    <string-array name="meme_names">
+        <item name="cry">PepeHands</item>
+        <item name="happy">FeelsGoodMan</item>
+        <item name="normal">FeelsWeirdMan</item>
+        <item name="punch">PepePunch</item>
+        <item name="rage">PepeRage</item>
+        <item name="sad">FeelsBadMan</item>
+        <item name="thinking">PepeThinking</item>
+        <item name="sweat">MonkaS</item>
+    </string-array>
+
 </resources>

@@ -1,5 +1,7 @@
 package com.gson.memegenerator
 
+import android.annotation.SuppressLint
+import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
@@ -11,8 +13,8 @@ class MemeActivity : AppCompatActivity() {
 
     private lateinit var image2: ImageView
     private lateinit var text2: TextView
-    private var model = Meme()
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_meme)
@@ -25,5 +27,7 @@ class MemeActivity : AppCompatActivity() {
             text2.text = bundle.getString("text")
             image2.setImageResource(bundle.getInt("meme"))
         }
+
+        setResult(Activity.RESULT_OK, intent)
     }
 }

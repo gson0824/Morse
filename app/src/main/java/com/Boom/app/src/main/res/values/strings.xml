@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Boom</string>
+    <string name="boom">Boom!!!</string>
+    <string name="nothingYet">Nothing Yet</string>
+    <string name="proposeToast">Propose a Toast</string>
+    <string name="initial_toast">Not my Toast</string>
+    <string name="my_real_toast">Here is the Toast I wanted to show.</string>
+    <string name="showOtherActivity">Show Other Activity</string>
+    <string name="nothing_here">Nothing Here</string>
+
+
+    <plurals name="imagine_x_explosions">
+        <item quantity="one">Imagine %1$d explosion</item>
+        <item quantity="other">Imagine %1$d explosions</item>
+    </plurals>
+</resources>

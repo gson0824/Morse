@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Counter</string>
+
+    <string name="club_empty">Club Leer</string>
+    <string name="club_full">Club Voll!</string>
+    <string name="occupancy_at">Belegung bei:</string>
+    <string name="add">Hinzufügen</string>
+    <string name="remove">Wegnehmen</string>
+    <string name="reset">Zurück</string>
+
+    <string name="max_occupancy_reached">Maximale Belegung mit %d Gästen erreicht!</string>
+
+    <!-- Plurals -->
+
+    <plurals name="patrons_in_club">
+        <item quantity="one">Es ist %1$d Gast da. Platz für %2$d mehr.</item>
+        <item quantity="other">Es sind %1$d Gäste da. Platz für %2$d mehr.</item>
+    </plurals>
+
+    <plurals name="patrons_in_club_extended">
+        <item quantity="one">Es ist %1$d Gast da. Platz für %2$d %3$s mehr.</item>
+        <item quantity="other">Es sind %1$d Gäste da. Platz für %2$d %3$s mehr.</item>
+    </plurals>
+
+    <plurals name="patron">
+        <item quantity="one">Gast</item>
+        <item quantity="other">Gäste</item>
+    </plurals>
+
+</resources>

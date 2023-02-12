@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Counter</string>
+
+    <string name="club_empty">Club Empty</string>
+    <string name="club_full">Club at Capacity!</string>
+    <string name="occupancy_at">Occupancy at:</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="reset">Reset</string>
+
+    <string name="max_occupancy_reached">Max occupancy of %d patrons reached!</string>
+
+    <!-- Plurals -->
+
+    <plurals name="patrons_in_club">
+        <item quantity="one">There is %1$d patron. Room for %2$d more.</item>
+        <item quantity="other">There are %1$d patrons. Room for %2$d more.</item>
+    </plurals>
+
+    <plurals name="patrons_in_club_extended">
+        <item quantity="one">There is %1$d patron. Room for %2$d more %3$s .</item>
+        <item quantity="other">There are %1$d patrons. Room for %2$d more %3$s.</item>
+    </plurals>
+
+    <plurals name="patron">
+        <item quantity="one">patron</item>
+        <item quantity="other">patrons</item>
+    </plurals>
+
+</resources>

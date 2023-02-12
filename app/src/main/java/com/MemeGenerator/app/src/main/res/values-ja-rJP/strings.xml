@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meme Generator</string>
+
+    <string name="show_me">見せて！</string>
+    <string name="snack">生成したミームの数：　</string>
+
+    <string-array name="meme_names">
+        <item name="cry">泣いてるぺぺ</item>
+        <item name="happy">いい気分なぺぺ</item>
+        <item name="normal">変な気分なぺぺ</item>
+        <item name="punch">ぺぺパンチ</item>
+        <item name="rage">お怒りぺぺ</item>
+        <item name="sad">悲しい気分なぺぺ</item>
+        <item name="thinking">考えるぺぺ</item>
+        <item name="sweat">やばいぺぺ</item>
+    </string-array>
+
+</resources>
