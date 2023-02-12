@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TwoViews</string>
+
+    <string name="welcome_one">Welcome to view one!</string>
+    <string name="welcome_two">Welcome to view two!</string>
+    <string name="ask_for_snacks">Ask Other View for Snacks</string>
+    <string name="cookies_or_milk">Check for cookies or milk</string>
+
+    <string name="thanks_for_nothing">Thanks for nothing!</string>
+    <string name="thanks_for_cookies">Thanks for the cookies!</string>
+    <string name="thanks_for_milk">Thanks for the milk</string>
+    <string name="the_secret_code_is">The secret code is: </string>
+
+</resources>
