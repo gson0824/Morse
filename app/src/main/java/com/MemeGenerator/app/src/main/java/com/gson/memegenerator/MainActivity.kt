@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var textView: TextView
     private lateinit var imageButton: ImageButton
     private var count = 0
+    private lateinit var resetButton: Button
 
     private var model = Meme(this@MainActivity)
     private lateinit var cl: ConstraintLayout
@@ -41,10 +43,15 @@ class MainActivity : AppCompatActivity() {
 
         textView =findViewById(R.id.showme_meme)
         imageButton = findViewById(R.id.imageButton_meme)
+        resetButton = findViewById(R.id.resetButton)
         cl = findViewById(R.id.layout_meme)
 
         imageButton.setOnClickListener {
             onShowOtherView()
+        }
+
+        resetButton.setOnClickListener {
+            count = 0
         }
     }
 

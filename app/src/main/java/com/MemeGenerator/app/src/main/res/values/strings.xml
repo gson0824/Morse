@@ -3,6 +3,7 @@
 
     <string name="show_me">Show Me!</string>
     <string name="snack">Number of Memes Generated: </string>
+    <string name="reset">Reset Count</string>
 
     <string-array name="meme_names">
         <item name="cry">PepeHands</item>

@@ -4,6 +4,7 @@
 
     <string name="show_me">見せて！</string>
     <string name="snack">生成したミームの数：　</string>
+    <string name="reset">リセット</string>
 
     <string-array name="meme_names">
         <item name="cry">泣いてるぺぺ</item>

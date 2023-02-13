@@ -5,21 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green_900"
+    android:textStyle="bold"
     tools:context=".MemeActivity">
-
-    <TextView
-        android:id="@+id/memeText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/memeImage"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.378" />
 
     <ImageView
         android:id="@+id/memeImage"
@@ -30,6 +17,17 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.813"
+        app:layout_constraintVertical_bias="0.495"
         app:srcCompat="@drawable/happy" />
+
+    <TextView
+        android:id="@+id/memeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/memeImage" />
 </androidx.constraintlayout.widget.ConstraintLayout>
